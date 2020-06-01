@@ -1,1 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+<title>Page Title</title>
+</head>
+<body>
+	
+	<h1>This is a heading</h1>
+	<p> This is a paragraph.</p>
+	<h2>HTML Links</h2>
+	<p>HTML links are defined with the a tag:</p>
 
+	<h3>HTML images</h3>
+	<p>HTML images are drfined with the img tag:
+	</p>
+
+	<h4>HTML Buttons</h4>
+	<p>HTML buttons are defined with the button tag:</p>
+
+	<button>Click me</button>
+
+	<img src="w3schools.jpg" alt="W3Schools .com"
+	width="104" height="142">
+
+	<a href="https://www.w3schools.com">This a link</a>
+
+	<h5>An Unordered HTML List</h5>
+
+	<ul>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul>
+
+	<h5>An ordered HTML List</h5>
+
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<h6 title="I'm a header"The tile Attribute></h6>
+
+	<p title="I'm a tooltip">
+		Mouse over this paragraph, to display teh tile attribute as a tooltip
+	</p>
+
+	<h7>THe href Attribute</h7>
+	<p>HTML links are defined wiht a tag. The link address is specified in the href attribute:</p>
+
+	<a href="https://www.w3schools.com">This is a link</a>
+
+	<h8>Size Attributes</h8>
+	<p>Images in HTML have a set of size attributes, which specifies the width and height of the image:</p>
+
+	<img src="img_girl.jpg" width="500" height="600">
+
+	<h9>The alt Attribute</h9>
+	<p>The alt attribute should reflect the image content, so users who cannot see the image gets an understanding of what the image contains:</p>
+
+	<img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
+
+	<a href=https://w3shcools.com>This is a link</a>
+
+	<h10>About W3Schools</h10>
+
+	<p title=About W3Schools>
+		You cannot omit quotes around an attribute value
+		if the value contains spaces.
+	</p>
+
+	<p><b>
+		If you move the mouse over the paragraph above, 
+		your browser will only display the first word from the title
+	</b></p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First HTML</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<p>The HTML head element contains meta data.
+</p>
+<p>Meta data is data about the HTML document.
+</p>
+
+<p>This is<br>a paragraph<br>with line breaks</p>
+
+<p>IN HTML, spaces and new lines are ignored:
+</p>
+
+<p>
+	
+	My Bonnie lies over the ocean.
+
+	My bonnie lies over the sea.
+
+	My Bonnie lies over the ocean.
+
+	Oh, bring back my Bonnie to me.
+
+</p>
+
+<p>The pre tag preserves both spaces and line breaks:</p>
+
+<pre>
+	My Bonnie lies over the ocean.
+
+	My Bonnie lies over the sea.
+
+	My Bonnie lies over the ocean.
+
+	Oh, bring back my Bonnie to me.
+</pre>
+
+<p>I am normal</p>
+<p style="color:red;">I am red</p>
+<p style="colorblue">I am blue</p>
+<p style="font-size:50px;color:orange">I am big</p>
+
+
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family;courier;">This is a paragraph.</p>
+
+<h1 style="font-size: 300%;">This is a heading</h1>
+<p style="font-size: 160%;">This is a paragraph.</p>
+
+<h1 style="text-align: center;">Centered Heading</h1>
+<p style="text-align: center;">Centered paragraph.</p>
+
+<p>This text is normal</p>
+
+<p><b>This text is bold.</b></p>
+
+<p>This text is normal.</p>
+
+<p><strong>THis text is strong.</strong></p>
+
+<p>This text is normal.</p>
+
+<p><i>This text is italic.</i></p>
+
+<p>This text is normal.</p>
+
+<p><em>This text is emphasized.</em></p>
+
+<h2>HTML <small>Small</small> Formatting</h2>
+
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+
+<p>The del elemnt represents deleted (removed) text.</p>
+
+<p>My favorite color is <del>blue</del> red.</p>
+
+<p>The ins element represent inserted (added) text.</p>
+
+<p>My favorite <ins>color</ins> is red.</p>
+
+The del element represent delted (removed) text.
+The ins element represent inserted (added) text.
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+<p>This is <sub>subscripted</sub> text.</p>
+
+<p>This is <sup>superscripted</sup> text.</p>
+
+<p>Browsers usually insert quotation marks around the q elemtn.</p>
+
+<p>WWF's goal is ot: <q>Build a future where people live in harmony with nature.</q></p>
+
+<p>browsers usally indent blockquote elemnts.</p>
+
+<blockquote cite="https://www.worldwildlife.org.who.index.html">
+For nearly 60 years, WWF has been protecting the future of nature. THe world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members ins the United States and close to five million globally.
+</blockquote>
+
+<p>the HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address>
+Written by Joyn Doe.<br>
+Visit us at:<br>
+example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<p>THe <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<p>Marking up abbreviations can give useful informaiton to browsers, translation systems and search-engines.</p>
+
+<p>The HTML cite element defines the title of a work.</p>
+<p>Browsers usually display cite elements in italic.</p>
+
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+<bdo dir="rtl">This line will be wrtten from right to left</bdo>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+<!-- Comments are not displayed in the browser -->
+
+<!--[if IE 5]>This is IE 5<br><![endif]-->
+<!--[if IE 6]>This is IE 6<br><![endif]-->
+<!--[if IE 7]>This is IE 7<br><![endif]-->
+<!--[if IE 8]>This is IE 8<br><![endif]-->
+<!--[if IE 9]>This is IE 9<br><![endif]-->
+
+<!-- Do not display this at the moment
+
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Floating Images</h2>
+<p><strong>FLoat the image to the right:</strong></p>
+
+<p>
+<img src="smiley.gif" alt="Smiley face" style="float: right;width: 42px;height: 42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph wiht a floating image.
+</p>
+
+<p><strong>Float the image to the left:</strong></p>
+<p><img src="smiley.gif" alt="Smiley face" style="float: right;width: 42px;height:42px;">A paragraph wiht a floating image. A paragraph with a floating image. A paragraph with a floating image.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Tables</h2>
+
+<p>HTML tables start with a table tag.</p>
+<p>Table rows start with a tr tag.</p>
+<p>table data start with a td tag.</p>
+
+<hr>
+
+<h2>1 Column:</h2>
+
+<table>
+	<tr>
+		<td>100</td>
+	</tr>
+</table>
+
+<hr>
+
+<h2>3 Rows and 3 Columns:</h2>
+<table>
+	<tr>
+		<td>100</td>
+		<td>200</td>
+		<td>300</td>
+	</tr>
+</table>
+
+<hr>
+
+<h2>3 Rows and 3 Columns:</h2>
+<table>
+	<tr>
+		<td>100</td>
+		<td>200</td>
+		<td>300</td>
+	</tr>
+	<tr>
+		<td>400</td>
+		<td>500</td>
+		<td>600</td>
+	</tr>
+	<tr>
+		<td>700</td>
+		<td>800</td>
+		<td>900</td>
+	</tr>
+</table>
+
+<hr>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+} 
+th,td {
+	padding: 5px;
+}
+th {
+	text-align: left;
+}
+table#t01 {
+	width: 100%;
+	background-color: #f1f1c1;
+}
+</style>
+</head>
+<body>
+
+<h2>Collapsed Borders</h2>
+<p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+
+<h2>Left-align Headings</h2>
+<p>To left-align the table headings, use the CSS text-align property.</p>
+
+<table style="width: 100%">
+	<tr>
+		<th>Firstname</th>
+		<th>Lastname</th>
+		<th>Age</th>
+	</tr>
+	<tr>
+	    <td>Jill</td>
+	    <td>Smith</td>
+	    <td>50</td>	
+	</tr>
+	<tr>
+		<td>Eve</td>
+		<td>Jackson</td>
+		<td>94</td>
+	</tr>
+	<tr>
+		<td>John</td>
+		<td>Doe</td>
+		<td>80</td>
+	</tr>
+</table>
+
+<h2>Horizontal Headings:</h2>
+
+<table style="width: 100%">
+	<tr>
+		<th>Name</th>
+		<th>Telephone</th>
+		<th>Telephone</th>
+	</tr>
+	<tr>
+		<td>Bill Gates</td>
+		<td>555 77 854</td>
+		<td>555 77 854</td>
+	</tr>
+</table>
+
+<h2>Vertical Headings:</h2>
+
+<table style="widht:100%">
+	<tr>
+		<th>Name:</th>
+		<td>Bill Gates</td>
+	</tr>
+	<tr>
+		<th>Telephone</th>
+		<td>555 77 854</td>
+	</tr>
+	<tr>
+		<th>Telephone</th>
+		<td>555 77 855</td>
+	</tr>
+</table>
+
+<h2>Table Caption</h2>
+<p>To add a caption to a table, use teh caption tag.</p>
+
+<h2>Cell that spans two columns</h2>
+<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+<h2>Cell that spans two rows</h2>
+<p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+<table style="width: 100%">
+	<caption>Monthly savings</caption>
+	<tr>
+    <th colspan="2">Month</th>
+    <th colspan="2">Savings</th>
+  </tr>
+  <tr>
+    <td rowspan="2">January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+<table id="t01">
+	<caption>Monthly savings</caption>
+	<tr>
+    <th colspan="2">Month</th>
+    <th colspan="2">Savings</th>
+  </tr>
+  <tr>
+    <td rowspan="2">January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background: white;
+    color: black;
+}
+</style>
+</head>
+<body>
+
+<h2 style="color: gray"><pre style="font-family: arial">Navigation Menu
+<pre><h2>
+
+<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#news">News</a></li>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.cities {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>The class Attribute</h2>
+<p>Use CSS to style an element with teh class name "cities";</p>
+
+<div class="cities">
+	<h2>London</h2>
+	<p>London is the capital of England.</p>
+</div>
+
+<div class="cities">
+	<h2>Paris</h2>
+	<p>Paris the capital of France</p>
+</div>
+
+<div class="cities">
+	<h2>Tokyo</h2>
+	<p>Tokyo is the capital of Japan.</p>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Iframes</h2>
+<p>An iframe is used to display a web page within a web page</p>
+
+<iframe src="demo_iframe.htm"></iframe>
+
+<pre>
+	
+
+
+
+</pre>
+
+<h2>The var element</h2>
+<p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form>
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname" value="John">
+	<label for="lname">Last name</label><br>
+	<input type="text" name="lname" id="lname" value="Doe">
+	<input type="submit" value="Submit">
+</form>
+
+<p>IF you click the "Submit: button, the form-data will be sent to a page called"/action_page.php".
+</p>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that default width of text input fields is 20 characters.</p>\\
+
+<h2>Radio Buttons</h2>
+
+<form>
+	<input type="radio" id="male" name="gender" value="male">
+	<label for="male">Male</label><br>
+	<input type="female" id="female" name="gender" value="female">
+	<label for="female" id="other" name="female">Female</label><br>
+	<input type="radio" id="other" name="gender" value="other">
+	<label for="other">Other</label>
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The select Element</h2>
+
+<p>The selcet element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+	<label for="cars">Choose a car:</label>
+	<select id="cars" name="cars">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="fiat">Fiat</option>
+		<option value="audi">Audi</option>
+	</select>
+	<input type="submit">
+</form>
+
+</body>
+</html>

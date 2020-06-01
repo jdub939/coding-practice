@@ -1,1 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+<h1 style="color: blue;">This is a Blue Heading</h1>
+
+<style>
+body {background-color: powderblue;}
+h1 {color: blue;}
+p {color: red;}	
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text.css" href="styles.css">
+</head>
+<body>
+
+<h1>This is heading</h1>
+<p>This is paragraph</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+	color: blue;
+	font-family: verdana;
+	font-size: 300%;
+
+}	
+p {
+	color: red;
+	font-family: courier;
+	font-size: 160%;
+
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#p01 {
+	color: blue;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p id="p01">I am different.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#p01 {
+	border: 1px solid powderblue;
+	padding: 30px;
+}
+p {
+	border: 1px solid powderblue;
+}
+p.error {
+	color: red;
+} 
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different too.</p>
+
+<p id="p01">This is a paragraph.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<h1>HTML Links</h1>
+<p><a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a></p>
+
+<h2>Local Links</h2>
+
+<p><a href="html_images.asp">HTML Images</a> is a link to a page on this webiste.</p>
+
+<p><a href="https://www.w3.org/">W3C</a> is a link to a website on the World Wide Web.</p>
+
+<h3>Link Colors</h3>
+
+<p>You can change the default colors of links</p>
+
+<a href="html_images.asp" target="_blank">HTML Images</a>
+
+<a href="html_images.asp" style="text-decoration: none"> HTML Images</a>
+
+<h4>The target Attribute</h4>
+
+<a href="https://www.w3schools.com/html/" target="_blank"> Visit our HTML tutorial!</a>
+
+<p>If you set the target attribute to "_blank", the link will open in a new browser window or tab.</p>
+
+<h4>Image LInks</h4>
+
+<p>The image is a link. You can click on it.</p>
+
+<a href="default.asp">
+	<img src="smiley.gif" alt="HTML tutorial"
+style="width: 42px;height: 42px;border: 0">
+</a>
+
+<p>We have added "border:0" to prevent IE9 (and earlier) from displaying a border around the image.</p>
+
+<p>Locked in a frame? <a href="https://www.w3schools.com/html/"
+target="_top">Click here!</a></p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="#C4">Jump to Chapter 4 </a> </p>
+<p><a href="#C10">Jump to Chapter 10 </a> </p>
+
+<h2>Chapter 1 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 2 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 3 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2 id="C4">Chapter 4 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 5 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 6 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 7 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 8 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 9 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2 id="C10">Chapter 10 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 11 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 12 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 13 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 14 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 15 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 16 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 17 </h2>
+<p>This chapter explains bla bla bla</p>
+
+<h2>Chapter 18 </h2>
+<p>This chapter explains bla bla bla</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>
+This is an email link:
+<a href="mailto:someone@example.com?
+Subject=HEllo%20again" target="_top">
+Send Mail </a></p>
+
+<!-- <p>(Spaces between words should be replaced by %20 to ensure that the browser will display the text properly)</p> -->
+
+<p>The link will only work if you have email installed.</p>
+
+<p>
+This is another mailto link:
+<a href="mailto:someone@example.com?
+cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%2to%20a%20big%20summer%20party!"
+target="_top">Send mail!</a>
+</p>
+
+<p>
+This is another mailto link:
+<a href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!" target="_top">Send mail!</a>
+</p>
+
+<!-- Remember: when you are writing the mailto:someone...don't put a space between the ? and CC or else it won't register the CC (the cc won't show up) -->
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This stylesheet set the width of all images to 100%: */
+img {
+	width: 100%;
+
+}
+</style>
+</head>
+<body>
+
+<h2>Styling Images</h2>
+<p>The image below has the width attribute set to 128 pixels, but the stylesheet overrides it, and sets the width to 100%.</p>
+<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+
+<p>The image below uses the style attribute, where the width is set to 128 pixels which overrides the stylesheet:</p>
+<img src="html5.gif" alt="HTML5 Icon" style="width: 128px;height: 128px;">
+
+<h2 style="text-align: center">Italian Trulli</h2>
+<img src="pic_trulli.jpg" alt="Italian Trullti" style="width: 100%">
+
+<h2>Image Size</h2>
+
+<p>Use the style attribute to specify the width and height of an image:</p>
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height: 600px;">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<h2>Images in Another Folder</h2>
+
+<p>It is common to store images in a sub-folder. YOu must then include the folder name in the src attribute:</p>
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height: 128px;">
+
+<p>IF a browser cannot find an image, it will display teh alternate text:</p>
+<img src="wrongname.gif" alt="HTML5 Icon" style="width:128px; height: 128px;">
+
+<h2>Image on Another Server</h2>
+
+<img src="https://www/w3schools.com/images/w3schools_grean.jpg" alt="W3Schools.com" style="width:104px;height: 142px;">
+
+<h2>Animated Images</h2>
+<p>The GIF standard allows moving images.</p>
+<img src="programming.gif" alt="Computer man" style="width:48px; height: 48px;">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the sun or on one of the planets to watch it closer:</p>
+
+<img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height: 126px;">
+
+<map name="planetmap">
+	<area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+	<area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+	<area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+
+</body>
+</html>
